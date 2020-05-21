@@ -105,6 +105,6 @@ def getFileName(path,Type):
 
 if __name__ == '__main__':
     path = './'
-#       设置文件路径     
+#      设置文件路径     
     Type = input("是否同时含有简体字幕与繁体字幕（y/n）")
     getFileName(path,Type)
